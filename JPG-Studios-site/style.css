@@ -3,11 +3,15 @@
     padding: 0%;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.body{
+    background-color: black;
+}
 .navbar{
-    text-align: center;
-    width: 100%;
+    width: 100vp;
     height: 150px;
     background: #42455a;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 .topbarjpgimage{
     position: absolute;
@@ -21,39 +25,53 @@
 .homelink{
     position: absolute;
     top: 60px;
-    left: -90px;
+    left: 50px;
     width: 100%;
+    font-size: 20px;
 }
 .aboutlink{
     position: absolute;
     top: 60px;
     width: 100%;
+    font-size: 20px;
 }
 .featureslink{
     position: absolute;
     top: 60px;
     width: 100%;
+    font-size: 20px;
 }
 .projectslink{
     position: absolute;
     top: 60px;
-    right: -190px;
     width: 100%;
+    font-size: 20px;
 }
 .contactlink{
     position: absolute;
     top: 60px;
-    right: -90px;
     width: 100%;
+    font-size: 20px;
 }
 .bloglink{
     position: absolute;
     top: 60px;
-    right: -280px;
     width: 100%;
+    font-size: 20px;
+    text-indent: 1800px;
 }
 .home{
     background: fixed;
     background: #222333;
     text-align: center;
+    font-size: 30px;
+    border-radius: 50px;
+}
+.headerhome{
+    font-size: 50px;
+    color: cornsilk;
+}
+.discord{
+    background-color: #ccaf09;
+    border-radius: 10px;
 }
